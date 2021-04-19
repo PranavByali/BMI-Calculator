@@ -31,7 +31,7 @@ def get_bmi(d):
             d[i]["Health Risk"] = "Very high risk"
     print(d)
 
-def test_bmi():
+def test_get_bmi():
     assert get_bmi([{"Gender": "Male", "HeightCm": 171, "WeightKg": 96},
         {"Gender": "Male", "HeightCm": 161, "WeightKg": 85},
         {"Gender": "Male", "HeightCm": 180, "WeightKg": 77},
