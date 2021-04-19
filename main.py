@@ -37,7 +37,6 @@ def get_bmi(d):
         if bmi >= 40:
             d[i]["BMICatergory"] = "Very seriously obese"
             d[i]["Health Risk"] = "Very high risk"
-    print(d)
     return d
 
 get_bmi(data)
