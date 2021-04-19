@@ -29,9 +29,8 @@ def get_bmi(d):
         if bmi >= 40:
             d[i]["BMICatergory"] = "Very seriously obese"
             d[i]["Health Risk"] = "Very high risk"
-     print(d)
-     return d   
-        
+    print(d)
+    return d
 
 def test_get_bmi():
     assert get_bmi([{"Gender": "Male", "HeightCm": 171, "WeightKg": 96},
